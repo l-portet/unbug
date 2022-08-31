@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "lib": ["ES2022"],
+    "moduleResolution": "Node16",
+    "rootDir": ".",
+    "outDir": "dist",
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"],
+      "@cli": ["cli"],
+      "@cli/*": ["cli/*"],
+      "@core": ["core"],
+      "@core/*": ["core/*"],
+      "@config": ["config"],
+      "@config/*": ["config/*"],
+      "@tui": ["tui"],
+      "@tui/*": ["tui/*"]
+    }
+  },
+  "include": ["src/**/*", "__tests__/**/*"]
+}
